@@ -6,7 +6,7 @@ You can start with the [Walking the File Tree](http://docs.oracle.com/javase/tut
 Instead of comparing two files byte by byte, you will compare their checksum values. You will calculate a checksum for each file using an algorithm of your choice. 
 I used [cyclic redundancy check](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) (`java.util.zip.CRC32`), but feel free to choose another one. If computed checksum values are equal, then we can assume that files are duplicates of each other.
 
-Use an appropriate data structure to group files under the same checksum. **Hint: Map<Long,List<Path>>**
+Use an appropriate data structure to group files under the same checksum. **Hint:** `Map<Long,List<Path>>`
 
 Your program will sort the duplicate lists by the number of files in each list.
 For example, if four duplicates of a file is detected, then this four files will be printed before a duplicate list of size two.
