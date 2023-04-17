@@ -11,10 +11,10 @@ Use an appropriate data structure to group files under the same checksum. **Hint
 Your program will sort the duplicate lists by the number of files in each list.
 For example, if four duplicates of a file is detected, then this four files will be printed before a duplicate list of size two. The starter code contains a helper method (`ceng.bim208.App.sortByListSize`), which can either inspire you or be used as is.
 
-You can easily test your program by downloading a [solr-6.4.1](http://www-eu.apache.org/dist/lucene/solr/6.4.1/solr-6.4.1.tgz) distribution.
+You can easily test your program by downloading a [solr-9.2.0](https://solr.apache.org/downloads.html) distribution.
 Extract it into some location and use this path as starting directory of your program.
 
-* java -jar target/HW1-1.0.jar /Users/iorixxx/Desktop/solr-6.4.1
+* java -jar target/HW1-1.0.jar /Users/iorixxx/Desktop/solr-9.2.0
 
 and the program will print out something like:
 
